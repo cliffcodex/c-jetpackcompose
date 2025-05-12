@@ -1,4 +1,4 @@
-package com.west.%.ui.theme
+package com.west.CStackTheme.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
@@ -18,7 +18,7 @@ private val LightColors = lightColorScheme(
 )
 
 @Composable
-fun %(
+fun CStackTheme(
     darkTheme: Boolean = false,
     content: @Composable () -> Unit
 ) {
